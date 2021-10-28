@@ -16,12 +16,10 @@ public class ex3 {
 			num3 = num2; //num3: variavel para guardar o valor de num2
 			num2 = num1;
 			num1 = num3;
-			System.out.println("Número 1: " + num1);
-			System.out.println("Número 2: " + num2);
-		} else {
-			System.out.println("Número 1: " + num1);
-			System.out.println("Número 2: " + num2);
+			
 		}
+		System.out.println("Número 1: " + num1);
+		System.out.println("Número 2: " + num2);
 
 		read.close();
 	}
