@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ex14 {
 
 	public static void main(String[] args) {
-Scanner read = new Scanner(System.in);
+		Scanner read = new Scanner(System.in);
 		
 		int num1, num2, result = 0, resto = 0;
 		

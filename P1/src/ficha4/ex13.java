@@ -16,7 +16,7 @@ public class ex13 {
 			for (int i = 0; i < num2; i++) { //o num1 é somado a ele proprio num2 vezes
 				res += num1;
 			}
-			System.out.println(num1 + "*" + num2 + "=5" + res);
+			System.out.println(num1 + "*" + num2 + "=" + res);
 		} else {
 			System.out.println("Números inválidos.");
 		}

@@ -13,7 +13,7 @@ public class ex8 {
 		System.out.println("Número 2: ");
 		y = read.nextInt();
 		
-		for(int i = y; i >= 1; i--) { 
+		for(int i = 1; i <= y; i++) { 
 			resultado *= x;
 		}
 		System.out.println(x + "^" + y + ": " + resultado);

@@ -7,14 +7,16 @@ public class ex7 {
 		Scanner read = new Scanner(System.in);
 		
 		System.out.println("Introduza um número: ");
-		int num = read.nextInt(), soma = 0;
+		int numLimite = read.nextInt(), soma = 0;
 
-		if (num >= 0) {
-			for(int i = 1; i <= num; i++) {
-				soma += i;			
+		if (numLimite >= 0) {
+			int i = 1; //controlador 
+			while(soma <= numLimite) {
+				soma += i;
+				i++; //o é incrementado uma vez a mais (logo o numero de numeros somados é i-1)
 			}
 			System.out.println("Total: " + soma);
-			System.out.println("Foram somados " + num + " números.");
+			System.out.println("Foram somados " + (i-1) + " números.");
 		} else {
 			System.out.println("Número inválido.");
 		}

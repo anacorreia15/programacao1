@@ -11,7 +11,7 @@ public class ex9 {
 		int fatorial = 1; //variavel que guarda o resultado do fatorial
 
 		if(num >= 0) {
-			for(int i = 1; i <= num; i++){
+			for(int i = 2; i <= num; i++){ //i=2 porque multiplicar por 1 é sempre 1
 				fatorial *= i;
 			}
 			System.out.println("Fatorial: " + fatorial);

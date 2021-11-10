@@ -6,7 +6,7 @@ public class ex5 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 
-		System.out.println("Introduza um número inteiro: ");
+		System.out.println("Introduza o número de estrelas: ");
 		int num = read.nextInt();
 
 		if(num > 0) { //verifica se o número é positivo
