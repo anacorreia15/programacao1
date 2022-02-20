@@ -4,9 +4,9 @@ public class ex11 {
 
 	public static void main(String[] args) {
 		double preco = 99.55, precofinal, desconto;
-		double percentagem = 10; //double porque não dá para fazer operações entre dois tipos de dados Xint*doubleX
+		int percentagem = 10; //double porque não dá para fazer operações entre dois tipos de dados Xint*doubleX
 		
-		desconto = (percentagem/100)*preco;
+		desconto = ((double)percentagem/100)*preco;
 		precofinal = preco - desconto;
 		
 		System.out.printf("Preço:       %.2f\n", preco);

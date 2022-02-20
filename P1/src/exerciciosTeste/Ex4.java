@@ -8,12 +8,11 @@ public class Ex4 {
 
 		int num1 = 0, num2 = 0, soma = 0;
 
-
 		System.out.println("Introduza dois números:\nNúmero 1: ");
 		num1 = read.nextInt();
 		System.out.println("Número 2: ");
 		num2 = read.nextInt();
-
+		
 		if(num1 <= num2) {
 			for(int i = num1; i <= num2; i++) {
 				soma += i;
@@ -30,8 +29,7 @@ public class Ex4 {
 					System.out.println(i + " é multiplo de 5");
 				} 
 			}
-		}
-		
+		}		
 		System.out.println("Total: " + soma);
 
 		read.close();
